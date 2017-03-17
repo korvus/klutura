@@ -3,7 +3,7 @@ Thumbs.db
 ehthumbs.db
 
 ./src/node_modules
-./root/
+./root
 
 # Folder config file
 Desktop.ini
