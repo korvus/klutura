@@ -1,0 +1,44 @@
+.App-logo {
+  overflow:hidden;
+  background-size:cover;
+  height: 90px;
+  width:90px;
+  position:relative;
+}
+
+.frame{
+  position: absolute;
+  background-size:cover;
+  height: 90px;
+  width:90px;
+  background: url(../../pics/frame.svg) 0 0;
+  background-size: cover;
+}
+
+.bgColor-Wrapper{
+  position:absolute;
+  left:10px;
+  top:10px;
+  display:block;
+  width:70px;
+  height:70px;
+  overflow:hidden;
+}
+
+.bgColors{
+  animation: App-logo-spin infinite 5s linear;
+  transform: rotate(45deg);
+  position: relative;
+  left: -100px;
+  top: -200px;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: url(../../pics/bgStripes.jpg);
+  background-size: cover;
+}
+
+@keyframes App-logo-spin {
+  from { top: -200px; }
+  to { top: 11px; }
+}
