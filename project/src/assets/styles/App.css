@@ -40,3 +40,18 @@
   font-size: large;
 }
 
+/* CSS General */
+.closeIcon {
+	border: none;
+	background: url(../pics/closeCross.svg) 0 0;
+	background-size: cover;
+	width:  25px;
+	height: 25px;
+	display: block;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	/* closeCross.svg */
+}

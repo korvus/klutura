@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import FormLogin from './Login'
 
 //https://auth0.com/blog/adding-authentication-to-your-react-flux-app/
+import '../assets/styles/components/connectModal.css';
 
 const customStyles = {
   content : {
@@ -34,7 +35,7 @@ class ConnectModal extends Component {
   }
 
   afterOpenModal() {
-    console.log("modal opened");
+    //console.log("modal opened");
   }
 
   closeModal() {
@@ -52,8 +53,7 @@ class ConnectModal extends Component {
             contentLabel="Example Modal"
           >
 
-            <h2 ref="subtitle">Hello</h2>
-            <button onClick={this.closeModal}>close</button>
+          <button className="closeIcon" onClick={this.closeModal}>close</button>
 
             <FormLogin />
 

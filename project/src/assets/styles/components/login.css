@@ -1,0 +1,89 @@
+.listLogin {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.listLogin li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	border: 1px solid #888;
+	border-radius: 5px;
+	margin: 0 10px;
+	display: flex;
+	cursor: pointer;
+}
+
+li.twitter:hover {
+	background: #00aced;
+}
+li.facebook:hover {
+	background: #3b5998;
+}
+li.linkedin:hover {
+	background: #0077b5;
+}
+li.google:hover {
+	background: #4caf50;
+}
+li.insta:hover {
+	background: #bc2a8d;
+}
+li.twitter { box-shadow:0px 0px 10px #00aced; }
+li.facebook { box-shadow:0px 0px 10px #3b5998; }
+li.linkedin { box-shadow:0px 0px 10px #0077b5; }
+li.google { box-shadow:0px 0px 10px #4caf50; }
+li.insta { box-shadow:0px 0px 10px #bc2a8d; }
+
+.ReactModal__Content{
+	position: relative;
+}
+
+.ReactModal__Content .closeIcon{
+	position: absolute;
+	fill: #f90;
+	right: 10px;
+	top: 10px;
+}
+
+fieldset {
+	margin: 30px 0 0 0;
+	border: none;
+}
+
+fieldset label {
+	float: left;
+	width: 90px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 36px;
+	color: #777;
+}
+
+fieldset input.txt {
+	border: 1px solid #ddd;
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+fieldset.login {
+	border: 1px solid #aaa;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+fieldset .bt {
+	margin-right: 10px;
+}
+
+.login a {
+	color: #777;
+}
+
+.actions {
+	margin-top: 40px;
+	text-align: center;
+}
